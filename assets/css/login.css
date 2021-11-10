@@ -1,0 +1,98 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    outline: transparent;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2rem;
+    
+}
+body{
+    background-color: var(--light-blue)  ;
+}
+:root{
+    --light-blue:#08a3d9;
+    --white:#ffff;
+    --black: #000000;
+
+}
+
+.light-blue{
+    color: var(--light-blue);
+}
+.white{
+    color: var(--white);
+}
+.black{
+    color: var(--black);
+}
+
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.form-input{
+    background: #f7f9fb;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    margin-top: 25px;
+}
+.form-input_email{
+    background: #f7f9fb;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    width: 393px;
+    margin-top: 25px;
+}
+.form-input_pass{
+    background: #f7f9fb;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    width: 393px;
+    margin-top: 25px;
+}
+
+form{
+    border-radius: 10px;
+    background: #f7f9fb;
+    padding: 2.5rem;
+    /* border-radius: 20px; */
+    width: 480px;
+    margin: auto;
+    margin-top: 150px;
+}
+.button{
+    background-color: #f7f9fb;
+    border-radius: 20px ;
+    /* padding: 7px 20px ; */
+    font-weight: 600 ;
+    border: 2px solid var(--light-blue) ;
+    width: 200px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+.button:hover{
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: 2px solid var(--white);
+    transition: 0.5s ease-in-out;
+}
+.login_in_wrapper{
+    margin-left: 70px;
+}
+.log_in{
+    /* margin-left: 163px; */
+    text-decoration: none;
+    /* color: grey; */
+}
+.log_in:hover{
+    text-decoration: underline;
+}
+.sign_up{
+    font-weight: 600;
+}

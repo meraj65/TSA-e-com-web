@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bundles/bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/8823268ff5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <section class="header_footer_main_wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg  nav-bar ">
+                <div class="container-fluid">
+                    <a class="navbar-brand nav-bar-logo navbar-link" href="./index.html"><i
+                            class="fas fa-tshirt"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-11 text-right">
+                                    <ul class="navbar-nav mb-2 mb-lg-0 text-right">
+                                        <li class="nav-item">
+                                            <a class="nav-link navbar-link active" aria-current="page"
+                                                href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link navbar-link"
+                                                href="./product-listing-page.html">Product</a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                                <div class="col-md-1">
+                                    <ul class="navbar-nav mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link navbar-link" href="./cart.html">Cart<i
+                                                    class="fas fa-cart-plus"></i></a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class=" container-fluid">
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-3 mb-2">
+                        <h1>Shopping Cart</h1>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-8 card left-card p-4">
+                        <!-- <hr> -->
+                        <div class="row row-border mb-3 pb-3">
+                            <div class="col-md-4">
+                                <img src="./assets/images/img-3.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4>Levi's t-shirt</h4>
+                                <div class="free-shiping-text">Eligible for FREE
+                                    shipping
+                                </div>
+                                <div class="color-text">
+                                    <span> <b>Colour: </b>White & Red</span>
+                                </div>
+                                <span class="size-text"> <b>Size: </b>Medium</span> <br>
+                                <label for="quantity">Quantity</label>
+                                <input class="quantity-input" type="number" id="quantity" min="0"> <span><a
+                                        class="delete-links" href="">Delete
+                                        | </a></span><span><a class="delete-links" href="">See more like this
+                                    </a></span>
+                            </div>
+
+                            <div class="col-md-2 price2">
+                                <span> <b> $15.00</b></span>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/img-3.jpg" alt="">
+                            </div>
+
+                            <div class="col-md-6">
+                                <h4>Levi's t-shirt</h4>
+                                <div class="free-shiping-text">Eligible for FREE shipping</div>
+                                <div class="color-text">
+                                    <span> <b>Colour: </b>White & Red</span>
+                                </div>
+                                <span class="size-text"> <b>Size: </b>Medium</span> <br>
+                                <label for="quantity">Quantity</label>
+                                <input class="quantity-input" type="number" id="quantity" min="0"> <span><a
+                                        class="delete-links" href="">Delete
+                                        | </a></span><span><a class="delete-links" href="">See more like this
+                                    </a></span>
+                            </div>
+
+                            <div class="col-md-2 price2">
+                                <span> <b> $15.00</b></span>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="subtotal-text">Subtotal (1 item): <b> $15.00</b></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 card right-card">
+                        <div class="rightcard-div">
+                            <span class="green"><i class="far fa-check-circle"></i>Your order is eligible for FREE
+                                Delivery.</span> <br>
+                            <span class="details-span">Select this option at checkout.</span> <a class="delete-links"
+                                href="">Details.</a>
+                        </div> <br>
+                        <h4 class="subtotal2-text">Subtotal (1 item): <b> $15.00</b></h4> <br>
+                        <a href="./checkout.html"> <button class="btn button">Checkout and Reviews </button> </a> <br>
+                        <div class="dropdown">
+                            <span>EMI Available</span>
+                            <div class="dropdown-content">
+                                <p style="line-height: 1rem;">Your order qualifies for EMI with valid credit cards (not
+                                    available on purchase of
+                                    Gold,
+                                    Jewelry, Gift cards and Amazon pay balance top up).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+            </section>
+
+        </main>
+        <footer class="foter">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Contact Us</h2>
+                            <a class="foter-mail" href=""><i class="fas fa-envelope-open-text"></i> Someone@gmail.com
+                            </a>
+                            <br>
+
+                            <a class="foter-call" href=""><i class="fas fa-mobile"></i> 0123456789</a>
+
+
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Quick Links</h2>
+                            <a class="quick-link" href="">Privacy Policy</a> <br>
+                            <a class="quick-link" href="">Terms & Conditions</a>
+
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Social Links</h2>
+                            <a class="social-link" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="social-link" href=""><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="./bundles/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

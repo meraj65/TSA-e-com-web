@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bundles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bundles/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/detail.css">
+    <title>Details</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  nav-bar ">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-bar-logo navbar-link" href="./index.html"><i class="fas fa-tshirt"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-11 text-right">
+                                <ul class="navbar-nav mb-2 mb-lg-0 text-right">
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-link active" aria-current="page"
+                                            href="./index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-link" href="./product-listing-page.html">Product</a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="col-md-1">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link navbar-link" href="./cart.html">Cart<i
+                                                class="fas fa-cart-plus"></i></a>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container-fluid">
+
+        <div class="container mt-3">
+            <h2 class="detail-heading">Details page </h2>
+            <div class="card mt-4 mb-5 p-3">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="detailiamge" src="./assets/images/img-2.jpg" width="300" height="350" alt="">
+
+                    </div>
+
+                    <div class="col-md-6 product-description">
+                        <h1>ASCOT- T-SHIRT-MUSTARD <br>
+                            YELLOW-HODDIES </h1>
+                        <h5 class="detaisprice">$189</h5>
+                        <p>-A classic self textured check shirt in mustard.
+                            -Can be worn for from office to after meeting evening get together.
+                            -Invisible buttoned down collar so the collars stays at place all day with ease.
+                            -100% premium Cotton with multicolor checks
+                        </p>
+                        <h4>Select color : </h4>
+
+                        <div class="parent-selector">
+                            <div class="selectcolor">
+                            </div>
+                            <div class="selectcolor1">
+                            </div>
+                            <div class="selectcolor2">
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <h4>
+                                Quantity :
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-6 col-sm-offset-4">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-primary btn-sm" id="minus-btn"><i
+                                            class="fa fa-minus"></i></button>
+                                </div>
+                                <input type="number" id="qty_input" class="form-control form-control-sm" value="1"
+                                    min="1">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-primary btn-sm" id="plus-btn"><i
+                                            class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <a href="./cart.html"> <button class="btn button">ADD TO CARD</button> </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="foter">
+        <div class="container">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Contact Us</h2>
+                        <a class="foter-mail" href=""><i class="fas fa-envelope-open-text"></i> Someone@gmail.com </a>
+                        <br>
+
+                        <a class="foter-call" href=""><i class="fas fa-mobile"></i> 0123456789</a>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Quick Links</h2>
+                        <a class="quick-link" href="">Privacy Policy</a> <br>
+                        <a class="quick-link" href="">Terms & Conditions</a>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Social Links</h2>
+                        <a class="social-link" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="social-link" href=""><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./bundles/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

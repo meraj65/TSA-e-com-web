@@ -1,0 +1,153 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    outline: transparent;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* line-height: 2rem; */
+    
+}
+body{
+    background-color: #f7f9fb;
+}
+
+
+:root{
+    --light-blue:#08a3d9;
+    --white:#ffff;
+    --black: #000000;
+
+}
+
+.light-blue{
+    color: var(--light-blue);
+}
+.white{
+    color: var(--white);
+}
+.black{
+    color: var(--black);
+}
+
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.foter{
+    /* position: fixed;     */
+    bottom: 0;
+    width: 100%;
+    background-color: var(--light-blue) ;
+    padding: 25px;
+    color: var(--white);
+    margin-top: 20px;
+    height: 200px;
+}
+.foter-mail{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+.foter-call{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+.quick-link{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+.social-link{
+text-decoration: none;
+color: var(--white);
+font-size: 40px;
+}
+.foter-mail:hover{
+    color: var(--black);
+
+}
+.foter-call:hover{
+    color: var(--black);
+}
+.quick-link:hover{
+    color: var(--black);
+}
+.social-link:hover{
+    color: var(--black);
+}
+.nav-bar{
+    background-color: var(--light-blue);
+    height: 65px;
+}
+.nav-bar-logo{
+    color: var(--white);
+}
+.nav-bar-logo:hover{
+    color: var(--black);
+}
+.link_nav{
+    color: var(--white);
+}
+.link_nav:hover{
+    color: var(--black);
+}
+
+.free-shiping-text{
+    color: grey;
+    font-size: 12px;
+}
+.color-text{
+    font-size: 12px;
+}
+.size-text{
+    font-size: 12px;
+}
+
+
+
+
+.bottom_border{
+    border-bottom: 1px solid var(--black);
+}
+
+.button{
+    border-radius: 20px;
+    
+    padding: 7px 20px;
+    font-weight: 600;
+    border: 2px solid var(--light-blue);
+   
+}
+.button:hover{
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: 2px solid var(--white);
+    transition: 0.5s ease-in-out;
+}
+.left_card1{
+    border-radius: 10px;
+    box-shadow: 1px 0px 12px 0px rgb(198, 208, 219);  
+}
+.left_card2{
+    border-radius: 10px;
+    box-shadow: 1px 0px 12px 0px rgb(198, 208, 219);  
+}
+.right_card{
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 12px 0px rgb(198, 208, 219);
+}
+.dlivery_address{
+    font-size: 17px;
+    font-weight: 600;
+}
+.dlivery_mode{
+    font-size: 17px;
+    font-weight: 600;
+}
